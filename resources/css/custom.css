@@ -1,0 +1,28 @@
+.top-nav a {
+    color: #062623cc !important;
+    font-size: 18px;
+}
+.border-color {
+    border-color: #00000033;
+}
+:focus-visible {
+    outline: none !important;
+}
+.who-we-are {
+    background-image: url("http://127.0.0.1:8000/images/b1.png");
+    background-position: 32% 100%;
+    background-repeat: no-repeat;
+}
+.mb-160 {
+    margin-bottom: 160px;
+}
+.property-tab {
+    background-image: url("http://127.0.0.1:8000/images/bg3.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.cta-section {
+    background-image: url("http://127.0.0.1:8000/images/img-2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}

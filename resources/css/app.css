@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "./custom.css";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: "Sofia Pro", ui-sans-serif, system-ui, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --color-primary: #062623;
+    --color-primary-80: #000000cc;
+}
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("http://127.0.0.1:8000/fonts/sofia/sofia-pro-regular-az.otf")
+        format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Sofia Pro Medium";
+    src: url("http://127.0.0.1:8000/fonts/sofia/sofia-pro-medium-az.otf")
+        format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.font-medium {
+    font-family: "Sofia Pro Medium";
+}
